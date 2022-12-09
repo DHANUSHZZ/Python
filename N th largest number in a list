@@ -1,0 +1,4 @@
+l=[10,20,4,45,99]
+n=set(l)
+n.remove(max(n))
+print(max(n))
