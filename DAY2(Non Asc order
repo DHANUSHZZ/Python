@@ -1,0 +1,8 @@
+L=[]
+n=int(input("Enter the n elements: "))
+for i in range(n):
+    a=int(input("Enter the elements: "))
+    L.append(a)
+L.sort(reverse=True)
+print(L)
+
