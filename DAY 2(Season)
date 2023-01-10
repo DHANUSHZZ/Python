@@ -1,0 +1,19 @@
+m=input("Enter the first three letters of the month: ")
+d=int(input("Enter the Date: "))
+if m in("Jan","Feb","Mar"):
+    print("Winter Season")
+elif m in("Apr","May","Jun"):
+    print("Summer Season")
+elif m in("Jul","Aug","Sep"):
+    print("Spring Season")
+elif m in("Oct","Nov","Dec"):
+    print("Fall Season")
+
+if m=="Mar" and (d>19):
+    print("Summer Season")
+elif m=="Jun" and (d>20):
+    print("Spring Season")
+elif m=="Sep" and (d>21):
+    print("Fall Season")
+elif m=="Dec" and (d>20):
+    print("Winter Season")
