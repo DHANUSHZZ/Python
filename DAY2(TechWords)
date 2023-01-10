@@ -1,0 +1,13 @@
+n=int(input("Enter the Number: "))
+a=str(n)
+l=len(a)
+if l%2==0:
+     x= a[:l//2]
+     y= a[l//2:]
+     sum=int(x)+int(y)
+     sq=sum*sum
+     if n==sq:
+         print("The Given number is a Tech Number")
+     else:
+         print("The Given number is Not a Tech Number")
+            
