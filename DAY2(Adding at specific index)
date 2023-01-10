@@ -1,0 +1,10 @@
+L=[]
+n=int(input("Enter the n elements: "))
+for i in range(n):
+    a=int(input("Enter the elements: "))
+    L.append(a)
+print(L)
+b=int(input("Enter the number you want to add: "))
+c=int(input("Enter the index you want the number at: "))
+L.insert(c,b)
+print(L)
