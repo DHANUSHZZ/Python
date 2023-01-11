@@ -1,0 +1,14 @@
+L=[]
+n=int(input("Enter n number for list:"))
+for i in range(n):
+    a=int(input("Enter the numbers : "))
+    L.append(a)
+odd=0
+even=0
+for j in range(n):
+    if L[j]%2==0:
+        even=even+L[j]*L[j]
+    else:
+        odd=odd+L[j]*L[j]
+        L2=[odd,even]
+print(L2)
