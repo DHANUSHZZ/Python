@@ -1,0 +1,9 @@
+a="""python is a high level language
+it is easy to learn
+it is portable and open source"""
+wc=len(a.split())
+print("The Number of words : ",wc)
+with open(r"C:\multiple string.txt",'r') as b:
+    print("The Number of Lines: ",len(b.readlines()))
+#or
+print(len(a.split("\n")))
