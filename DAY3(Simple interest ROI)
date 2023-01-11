@@ -1,0 +1,9 @@
+Principle=float(input("Enter the principle amount:"))
+time=int(input("Enter the time in years:"))
+age=input("are you senior citizen yes/no:")
+if age=="yes":
+    intrest1=(principle*time*12)/100
+    print("The intrest is:",intrest1)
+else:
+    intrest2=(principle*time*10)/100
+    print("The intrest is:",intrest2)
